@@ -43,7 +43,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Cringe AI</h1>
+        <h1>Quote AI</h1>
         <h2>powered by AI</h2>
         <div>Enter a topic and your AI will make a motivational quote</div>
         <div className={styles.mainImageContainer}>
@@ -57,10 +57,10 @@ export default function Home() {
         </div>
         <Form onSubmit={handleSubmit} className={styles.inputForm}>
           <Form.Group className='mb-3' controlId='prompt-input'>
-            <Form.Label>Create a cringy quote about...</Form.Label>
+            <Form.Label>Create a quote about...</Form.Label>
             <Form.Control
               name='prompt'
-              placeholder='e.g. success, fear, potatoes'
+              placeholder='e.g. success, fear, motivation'
               maxLength={100}
             />
           </Form.Group>
