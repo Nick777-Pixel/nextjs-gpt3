@@ -65,7 +65,7 @@ export default function Home() {
             />
           </Form.Group>
           <Button type='submit' className='mb-3' disabled={quoteLoading}>
-            Make me cringe
+            Make me inspired
           </Button>
         </Form>
         {quoteLoading && <Spinner animation='border' />}
