@@ -43,7 +43,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Kazz AI</h1>
+        <h1>Kaz AI</h1>
         <h2>Powered by OpenAI</h2>
         <div>Enter a topic and your AI will make a motivational quote</div>
         <div className={styles.mainImageContainer}>
