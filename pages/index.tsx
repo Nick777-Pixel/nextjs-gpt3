@@ -37,15 +37,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cringe AI - Create cringy motivational quotes</title>
+        <title>Quote AI - Create Motivational Quotes</title>
         <meta name="description" content="by Coding in Flow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <h1>Cringe AI</h1>
-        <h2>powered by GPT-3</h2>
-        <div>Enter a topic and the AI will generate a super cringy motivational quote</div>
+        <h2>powered by AI</h2>
+        <div>Enter a topic and your AI will make a motivational quote</div>
         <div className={styles.mainImageContainer}>
           <Image
             src={mainImage}
