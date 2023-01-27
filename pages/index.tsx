@@ -61,7 +61,7 @@ export default function Home() {
             <Form.Control
               name='prompt'
               placeholder='e.g. success, fear, motivation'
-              maxLength={100}
+              maxLength={200}
             />
           </Form.Group>
           <Button type='submit' className='mb-3' disabled={quoteLoading}>
