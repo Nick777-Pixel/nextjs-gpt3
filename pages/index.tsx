@@ -43,8 +43,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Kazz Quote AI</h1>
-        <h2>powered by AI</h2>
+        <h1>Kazz Inspiration AI</h1>
+        <h2>Twitch Streamer, Canceled, Mouth Breather</h2>
         <div>Enter a topic and your AI will make a motivational quote</div>
         <div className={styles.mainImageContainer}>
           <Image
@@ -60,7 +60,7 @@ export default function Home() {
             <Form.Label>Create a quote about...</Form.Label>
             <Form.Control
               name='prompt'
-              placeholder='e.g. success, fear, motivation'
+              placeholder='e.g. success, inspiration, motivation'
               maxLength={200}
             />
           </Form.Group>
