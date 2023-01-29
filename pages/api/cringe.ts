@@ -24,7 +24,7 @@ export default async function handler(
 
   const completion = await openai.createCompletion({
     model: "text-davinci-003",
-    prompt: `Create a cringy motivational quote based on the following topic.\n
+    prompt: `Create a motivational quote based on the following topic.\n
     Topic: ${prompt}\n
     Cringy motivational quote:`,
     max_tokens: 500,
